@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+
+@layer base {
+  h1 {
+    @apply text-6xl;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --gold: #fac213;
+  --grey: #393e46;
+  --bg-main: #fefbf3;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.App {
+  background-color: var(--bg-main);
+  min-height: 100vh;
+}
+
+.landing-title svg {
+  width: 20px;
+  height: 20px;
+}
+
+.category-header {
+  color: var(--gold);
+  font-family: "Merienda One", cursive;
+}
+
+.category-detail {
+  color: var(--grey);
+}
+
+.category-detail-item div {
+  border-bottom: 1px solid var(--grey);
+}
