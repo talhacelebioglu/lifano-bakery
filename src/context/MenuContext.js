@@ -6,7 +6,7 @@ const MenuContext = createContext();
 
 export const MenuProvider = ({ children }) => {
   const [menuList, setMenuList] = useState(categories);
-  console.log(menuList);
+  // console.log(menuList);
 
   return (
     <MenuContext.Provider value={{ menuList, setMenuList }}>
