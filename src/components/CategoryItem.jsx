@@ -4,7 +4,7 @@ const CategoryItem = ({ category }) => {
   return (
     <div className="category-item py-10">
       <div className="category-header text-center">
-        <h2 className="font-semibold pb-5 text-2xl sm:text-4xl">
+        <h2 className="font-semibold pb-5 text-3xl sm:text-4xl">
           ~ {category.name} ~
         </h2>
         <img
@@ -17,10 +17,12 @@ const CategoryItem = ({ category }) => {
         {category.items.map((item) => (
           <div className="category-detail-item pb-5">
             <div className="flex justify-between pt-5">
-              <h5 className="text-base sm:text-lg">{item.name}</h5>
-              <h5 className="text-base sm:text-lg">₺{item.price.toFixed(2)}</h5>
+              <h4 className="text-lg sm:text-xl">{item.name}</h4>
+              <h4 className="text-lg sm:text-xl">₺{item.price.toFixed(2)}</h4>
             </div>
-            <p className="text-xs sm:text-sm text-gray-400 pt-1">{item.desc}</p>
+            <p className="text-sm sm:text-base text-gray-400 pt-1">
+              {item.desc}
+            </p>
           </div>
         ))}
       </div>
