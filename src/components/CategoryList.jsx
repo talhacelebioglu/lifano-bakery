@@ -6,9 +6,16 @@ const CategoryList = () => {
   const { menuList } = useContext(MenuContext);
 
   return (
-    <div className="category-container">
+    <div className="category-list">
       {menuList.map((category) => (
-        <CategoryItem category={category} key={category.id} />
+        <div className="category-container" key={category.id}>
+          <div className="category-header text-center my-3">
+            <h2 className="font-semibold text-2xl sm:text-3xl uppercase">
+              ~ {category.name} ~
+            </h2>
+          </div>
+          <CategoryItem category={category} />
+        </div>
       ))}
     </div>
   );
