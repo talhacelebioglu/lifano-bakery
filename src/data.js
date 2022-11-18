@@ -1,7 +1,7 @@
 export const categories = [
   {
     id: 1,
-    name: "KAHVALTI",
+    name: "Kahvaltı",
     sub_category: [
       {
         id: 1.01,
@@ -242,5 +242,20 @@ export const categories = [
         ],
       },
     ],
+  },
+  {
+    id: 2,
+    name: "Tatlılar",
+    sub_category: [],
+  },
+  {
+    id: 3,
+    name: "Tereyağlılar",
+    sub_category: [],
+  },
+  {
+    id: 4,
+    name: "İçecekler",
+    sub_category: [],
   },
 ];

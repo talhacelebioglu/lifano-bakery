@@ -8,7 +8,11 @@ const CategoryList = () => {
   return (
     <div className="category-list">
       {menuList.map((category) => (
-        <div className="category-container" key={category.id}>
+        <div
+          id={category.name}
+          className="category-container pt-12"
+          key={category.id}
+        >
           <div className="category-header text-center my-3">
             <h2 className="font-semibold text-2xl sm:text-3xl uppercase">
               ~ {category.name} ~

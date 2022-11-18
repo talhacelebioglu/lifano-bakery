@@ -4,7 +4,7 @@ const CategoryItem = ({ category }) => {
   // console.log(category);
   // console.log(category.sub_category);
   return (
-    <div className="category-item py-5">
+    <div className="category-item">
       <div className="category-detail">
         {category.sub_category &&
           category.sub_category.map((item) => (
