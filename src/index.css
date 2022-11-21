@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+@import url("https://fonts.cdnfonts.com/css/century-gothic");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Raleway:wght@200;400;600&display=swap");
 
 @layer base {
   h1 {
@@ -31,14 +32,19 @@
 
 :root {
   --gold: #fac213;
+  --wood: #deb886;
   --grey: #393e46;
-  --bg-main: #fefbf3;
-  --navbar: #79b4b7;
+  --white: #fff;
+  --bg-main: #383e42;
+  /* --bg-main: #fefbf3; */
+  /* --navbar: #79b4b7; */
   --container-width: 1000px;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--white);
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -51,7 +57,7 @@ body {
 }
 
 .navbar {
-  background-color: var(--navbar);
+  background-color: var(--wood);
   color: #fff;
   height: 50px;
   position: sticky;
@@ -63,18 +69,40 @@ body {
   background-color: #fac213;
 }
 
+.brand-title {
+  color: black;
+  filter: drop-shadow(4px 4px 4px #ffff80);
+}
+
 .landing-page {
   min-height: 90vh;
 }
 
+.landing-page h1 {
+  font-family: "Century Gothic", sans-serif;
+}
+
+.landing-page h3 {
+  font-family: "Ephesis", cursive;
+}
+
+.line-1 {
+  border-left: 12px solid var(--wood);
+  height: 100%;
+}
+
+.line-2 {
+  border-left: 6px solid var(--wood);
+  height: 100%;
+}
+
 .landing-title svg {
-  width: 25px;
-  height: 25px;
+  width: 28px;
+  height: 28px;
 }
 
 .category-header {
-  color: var(--gold);
-  font-family: "Merienda One", cursive;
+  color: var(--wood);
 }
 
 .category-item {
@@ -82,9 +110,9 @@ body {
 }
 
 .category-detail {
-  color: var(--grey);
+  color: var(--white);
 }
 
 .category-detail-item div {
-  border-bottom: 1px solid var(--grey);
+  border-bottom: 1px solid var(--white);
 }

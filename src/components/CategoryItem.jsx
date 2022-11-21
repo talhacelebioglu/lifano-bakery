@@ -8,14 +8,9 @@ const CategoryItem = ({ category }) => {
       <div className="category-detail">
         {category.sub_category &&
           category.sub_category.map((item) => (
-            <div key={item.id} className="mb-20">
-              <img
-                className="w-full rounded-xl shadow-md shadow-amber-500"
-                src={item.img}
-                alt=""
-              />
+            <div key={item.id}>
               {item.items.length > 1 ? (
-                <h3 className="pt-8 text-lg sm:text-xl font-semibold">
+                <h3 className="pt-8 mb-5 text-lg sm:text-xl font-semibold">
                   {item.name.toLocaleUpperCase("tr-TR")}
                 </h3>
               ) : (
@@ -23,8 +18,13 @@ const CategoryItem = ({ category }) => {
               )}
               {item.items &&
                 item.items.map((item, index) => (
-                  <div key={index} className="category-detail-item my-5">
-                    <div className="flex justify-between pt-5">
+                  <div key={index} className="category-detail-item mb-16">
+                    <img
+                      className="w-full rounded-xl shadow-md shadow-amber-500"
+                      src={item.img}
+                      alt={item.name}
+                    />
+                    <div className="flex justify-between pt-7">
                       <h4 className="text-base sm:text-lg">
                         {item.name.toLocaleUpperCase("tr-TR")}
                       </h4>
@@ -37,7 +37,7 @@ const CategoryItem = ({ category }) => {
                         </h4>
                       )}
                     </div>
-                    <p className="text-sm sm:text-base text-gray-400 capitalize pt-2">
+                    <p className="text-sm sm:text-base opacity-60 capitalize pt-2">
                       {item.desc}
                     </p>
                   </div>
