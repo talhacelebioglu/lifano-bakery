@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div className="App container mx-auto p-5">
+      <div className="App container mx-auto px-5">
         <Landing />
         <Navbar />
         <CategoryList />

@@ -3,7 +3,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 const Landing = () => {
   return (
-    <div className="landing-page my-10 py-10 sm:px-20 flex">
+    <div className="landing-page mb-14 py-14 sm:px-20 flex">
       <aside className="flex justify-center gap-3 w-1/6">
         <div className="line-1"></div>
         <div className="line-2"></div>
