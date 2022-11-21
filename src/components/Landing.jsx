@@ -4,12 +4,12 @@ import { AiOutlineInstagram } from "react-icons/ai";
 const Landing = () => {
   return (
     <div className="landing-page my-10 py-10 sm:px-20 flex">
-      <aside className="flex justify-center gap-3 w-1/4">
+      <aside className="flex justify-center gap-3 w-1/6">
         <div className="line-1"></div>
         <div className="line-2"></div>
         <div className="line-2"></div>
       </aside>
-      <div className="flex flex-col items-center justify-center gap-10 text-center w-3/4">
+      <div className="flex flex-col items-center justify-center gap-10 text-center w-5/6">
         <div className="brand-title">
           <h1 className="text-7xl sm:text-8xl">lifano</h1>
           <h2 className="text-2.5xl sm:text-4xl">bakery & dessert</h2>
