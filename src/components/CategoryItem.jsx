@@ -19,11 +19,15 @@ const CategoryItem = ({ category }) => {
               {item.items &&
                 item.items.map((item, index) => (
                   <div key={index} className="category-detail-item mb-16">
-                    <img
-                      className="w-full rounded-xl shadow-md shadow-amber-500"
-                      src={item.img}
-                      alt={item.name}
-                    />
+                    <picture>
+                      <source srcSet={item.img} type="image/webp" />
+                      <img
+                        className="rounded-xl shadow-md shadow-amber-500"
+                        src={item.img}
+                        alt={item.name}
+                        loading="lazy"
+                      />
+                    </picture>
                     <div className="flex justify-between pt-7">
                       <h4 className="text-base sm:text-lg">
                         {item.name.toLocaleUpperCase("tr-TR")}

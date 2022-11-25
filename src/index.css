@@ -31,7 +31,7 @@
 }
 
 :root {
-  --gold: #fac213;
+  --gold: #f7fd04;
   --wood: #deb886;
   --grey: #393e46;
   --white: #fff;
@@ -69,9 +69,15 @@ body {
   background-color: #fac213;
 }
 
+img {
+  width: 100%;
+  /* max-height: 553.33px;
+  object-fit: cover; */
+}
+
 .brand-title {
   color: black;
-  filter: drop-shadow(4px 4px 4px #ffff80);
+  filter: drop-shadow(2px 3px 5px var(--gold));
 }
 
 .landing-page {

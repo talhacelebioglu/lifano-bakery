@@ -9,7 +9,17 @@ function App() {
         <Landing />
         <Navbar />
         <CategoryList />
-        <div className="m-5 text-center">Developed by Talha Çelebioğlu</div>
+        <div className="p-5 text-center">
+          Developed by
+          <a
+            href="http://www.instagram.com/talhacelebioglu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pl-1 underline"
+          >
+            Talha Çelebioğlu
+          </a>
+        </div>
       </div>
     </>
   );
