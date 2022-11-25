@@ -8,17 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "lifanomobilelogo.png",
-      "type": "image/png",
-      "sizes": "225x192"
-    },
-    {
-      "src": "logo192.png",
+      "src": "lifano192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "lifano512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
