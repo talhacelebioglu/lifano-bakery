@@ -25,7 +25,7 @@ const Landing = () => {
             >
               <AiOutlineInstagram />
             </a>
-            <h4 className="text-lg sm:text-xl">Bizi takip edebilirsiniz!</h4>
+            <h4 className="text-lg sm:text-xl">Bizi takip etmeyi unutmayın!</h4>
           </div>
         </div>
       </div>

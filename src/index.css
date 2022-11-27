@@ -27,7 +27,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 :root {
@@ -43,7 +42,6 @@
 
 body {
   color: var(--white);
-  /* font-family: Arial, Helvetica, sans-serif; */
   font-family: "Raleway", sans-serif;
 }
 
@@ -65,14 +63,16 @@ body {
   z-index: 5;
 }
 
+.navbar a {
+  transition: all 0.5s ease-out;
+}
+
 .active {
-  background-color: #fac213;
+  color: var(--grey);
 }
 
 img {
   width: 100%;
-  /* max-height: 553.33px;
-  object-fit: cover; */
 }
 
 .brand-title {

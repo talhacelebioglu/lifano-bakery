@@ -10,15 +10,16 @@ function App() {
         <Navbar />
         <CategoryList />
         <div className="p-5 text-center">
-          Developed by
+          ~ Developed by
           <a
             href="http://www.instagram.com/talhacelebioglu/"
             target="_blank"
             rel="noopener noreferrer"
-            className="pl-1 underline"
+            className="px-1 underline"
           >
             Talha Çelebioğlu
           </a>
+          ~
         </div>
       </div>
     </>

@@ -31,7 +31,6 @@ const CategoryItem = ({ category }) => {
                         className="rounded-xl shadow-md shadow-amber-500"
                         src={item.img.small}
                         alt={item.name}
-                        loading="lazy"
                       />
                     </picture>
                     <div className="flex justify-between pt-7">
