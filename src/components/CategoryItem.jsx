@@ -20,10 +20,16 @@ const CategoryItem = ({ category }) => {
                 item.items.map((item, index) => (
                   <div key={index} className="category-detail-item mb-16">
                     <picture>
-                      <source srcSet={item.img} type="image/webp" />
+                      <source
+                        type="image/webp"
+                        media="(max-width: 768px)"
+                        srcSet={`${item.img.small} 768w`}
+                        sizes="768px"
+                      />
+                      <source type="image/webp" srcSet={`${item.img.normal}`} />
                       <img
                         className="rounded-xl shadow-md shadow-amber-500"
-                        src={item.img}
+                        src={item.img.small}
                         alt={item.name}
                         loading="lazy"
                       />

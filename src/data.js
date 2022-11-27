@@ -10,35 +10,60 @@ export const categories = [
           {
             category: "FRANSIZ TOSTU",
             name: "avokado",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136335/lifano-bakery/kahvalt%C4%B1/avokado_tost-min_s2w05x.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/avokado-tost.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/avokado-tost.webp",
+            },
             price: 73,
             desc: "Ekşi Maya Ekmek, Roka, Maydonoz, Erken Hasat Soğuk Sıkım Zeytin Yağı, Orman Meyveleri, Tire Çamur Peyniri",
           },
           {
             category: "FRANSIZ TOSTU",
             name: "MOZZARELLA KASAP SUCUK",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136305/lifano-bakery/kahvalt%C4%B1/mozzarella_kasap_sucuk-min_ci2apf.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/mozzarella-kasapsucuk.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/mozzarella-kasapsucuk.webp",
+            },
             price: 89,
             desc: "Ekşi Maya Ekmek, Kasap Sucuk, Roka, Confit Domates, Mozzarella Sos",
           },
           {
             category: "FRANSIZ TOSTU",
             name: "MANTAR FÜME ET",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136287/lifano-bakery/kahvalt%C4%B1/mantar_fume-min_yeu0cn.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/mantar-fume.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/mantar-fume.webp",
+            },
             price: 73,
             desc: "Ekşi Maya Ekmek, Mantar, Ispanak, Göz Yumurta, Gravyer Peynir Rendesi, Sürülebilir Peynir, Taze Kekik",
           },
           {
             category: "FRANSIZ TOSTU",
             name: "YER FISTIĞI EZMESİ - BELÇİKA ÇİKOLATASI",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136319/lifano-bakery/kahvalt%C4%B1/yer_fistigi-_belcika_cikolatasi-min_kaneg3.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/yerfistigi-belcikacikolatasi.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/yerfistigi-belcikacikolatasi.webp",
+            },
             price: 79,
             desc: "Ekşi Maya Ekmek, Roka, Maydonoz, Erken Hasat Soğuk Sıkım Zeytin Yağı, Orman Meyveleri, Tire Çamur Peyniri",
           },
           {
             category: "FRANSIZ TOSTU",
             name: "FRENCH BURGER",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136323/lifano-bakery/kahvalt%C4%B1/french_burger-min_fgvdzs.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/french-burger.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/french-burger.webp",
+            },
             price: 73,
             desc: "Ekşi Maya Ekmek, füme antrikot, chedar peyniri, acı sos, turşu, mevsim reçeli",
           },
@@ -51,21 +76,36 @@ export const categories = [
           {
             category: "PANCAKE",
             name: "PANCAKE füme",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136301/lifano-bakery/kahvalt%C4%B1/pancake_fume-min_xkvwus.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/pancake-fume.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/pancake-fume.webp",
+            },
             price: 85,
             desc: "2 adet pancake, 2 adet göz yumurta, füme et, mantar, confit domates, kızarmış peynir",
           },
           {
             category: "PANCAKE",
             name: "PANCAKE meyveli",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136305/lifano-bakery/kahvalt%C4%B1/pancake_meyveli-min_sleliz.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/pancake-meyveli.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/pancake-meyveli.webp",
+            },
             price: 78,
             desc: "4 adet pancake, bal şurubu, krema, mevsim meyveleri",
           },
           {
             category: "PANCAKE",
             name: "PANCAKE special",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136339/lifano-bakery/kahvalt%C4%B1/pancake_special-min_oeieib.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/pancake-special.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/pancake-special.webp",
+            },
             price: 180,
             desc: "8 adet pancake, füme, kaburga, mevsim meyveleri, peynir çeşitleri, söğüş tabağı, bal, kaymak, zeytin, sürülebilir peynir, kit-kat, mevsim reçeli, kahvaltılık sos, avokado sos, 2 fincan çay",
           },
@@ -78,21 +118,36 @@ export const categories = [
           {
             category: "MEAT STORE",
             name: "withmeat",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136322/lifano-bakery/kahvalt%C4%B1/withmeat-min_jukotg.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/withmeat.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/withmeat.webp",
+            },
             price: 79,
             desc: "ekşi maya ekmek, mihaliç peyniri, kavurma, roka, scrambledeggs, acılı ev salça, kekik, mevsim yeşillikleri, sürülebilir peynir, lütenitsa",
           },
           {
             category: "MEAT STORE",
             name: "lifano envai",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136292/lifano-bakery/kahvalt%C4%B1/lifano_envai-min_v2vm2d.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/lifano-envai.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/lifano-envai.webp",
+            },
             price: 86,
             desc: "ekşi maya ekmek, kars gravyeri, kasap sucuk, poşe yumurta, mevsim yeşillikleri, hollandez sos",
           },
           {
             category: "MEAT STORE",
             name: "grand egg",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136335/lifano-bakery/kahvalt%C4%B1/grand_egg-min_xtpmfh.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/grand-egg.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/grand-egg.webp",
+            },
             price: 105,
             desc: "ekşi maya ekmek, füme somon, avokado, roka, poşe yumurta, hollandez sos, yeşillik",
           },
@@ -118,7 +173,12 @@ export const categories = [
           {
             category: "CHEF'S SPECİAL",
             name: "CHEF'S SPECİAL",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136336/lifano-bakery/kahvalt%C4%B1/chef_special-min_vkgsyg.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/chef-special.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/chef-special.webp",
+            },
             price: 195,
             desc: "peynir çeşitleri, tereyağı, tire çamur peyniri, söğüş, zeytin (siyah-yeşil), göz yumurta, (x2) dana bacon, füme et, petek bal, kaymak, mevsim reçeli, fındık ezmesi, avokado sos, 2 fincan çay",
           },
@@ -131,7 +191,12 @@ export const categories = [
           {
             category: "PROTEİNG",
             name: "PROTEİNG",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136305/lifano-bakery/kahvalt%C4%B1/proteing-min_gs2qea.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/proteing.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/proteing.webp",
+            },
             price: 93,
             desc: "gurme sosis, dana bacon, göz yumurta, sote mantar, kuru fasulye, ekşi maya ekmek, confit domates",
           },
@@ -144,7 +209,12 @@ export const categories = [
           {
             category: "KAHVALTI TABAĞI",
             name: "KAHVALTI TABAĞI",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136291/lifano-bakery/kahvalt%C4%B1/kahvalti_tabagi-min_m9p7jg.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/kahvalti-tabagi.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/kahvalti-tabagi.webp",
+            },
             price: 88,
             desc: "scrambledeggs, zeytinyağlı humuz, söğüş, zeytin, tire çamur peyniri, sucuk, kızartılmış peynir, petek bal, kaymak, tahin, gevrek simit",
           },
@@ -157,7 +227,12 @@ export const categories = [
           {
             category: "BONJOUR",
             name: "BONJOUR",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136324/lifano-bakery/kahvalt%C4%B1/bonjour-min_v1gi8k.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/bonjour.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/bonjour.webp",
+            },
             price: 93,
             desc: "ekşi maya ekmek, avokado, füme et, 2 adet göz yumurta, fındık ezmesi, kars gravyeri, ezine peyniri, tire çamur peyniri, zeytin, kahvaltılık sos, pesto sos, avokado sos",
           },
@@ -170,7 +245,12 @@ export const categories = [
           {
             category: "TAVA KAHVALTI",
             name: "TAVA KAHVALTI",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669293733/lifano-bakery/kahvalt%C4%B1/tava-kahvalti-min_op50fw.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/tava-kahvalti.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/tava-kahvalti.webp",
+            },
             price: 98,
             desc: "gurme sosis, mantar, scrambledeggs, kızarmış peynir, patates kızartması, confit domates, kahvaltılık sos, pesto sos, avokado sos",
           },
@@ -183,21 +263,36 @@ export const categories = [
           {
             category: "KRUVASAN",
             name: "kolbasa",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136290/lifano-bakery/kahvalt%C4%B1/kolbasa-min_nssr2h.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/kolbasa.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/kolbasa.webp",
+            },
             price: 85,
             desc: "gurme sosis, scrambledeggs, taze kekik, çörek otu, hardal, barbekü sos",
           },
           {
             category: "KRUVASAN",
             name: "istiridye mantarı",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136326/lifano-bakery/kahvalt%C4%B1/istiridye_mantari-min_xbbkqr.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/istiridye-mantari.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/istiridye-mantari.webp",
+            },
             price: 90,
             desc: "istiridye mantarı, scrambledeggs, füme antrikot, lutenitse, sürülebilir peynir",
           },
           {
             category: "KRUVASAN",
             name: "fior di latte",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136322/lifano-bakery/kahvalt%C4%B1/fior_di_latte-min_zb3ntk.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/fior-di-latte.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/fior-di-latte.webp",
+            },
             price: 88,
             desc: "mozzarella peyniri, kuru domates, fesleğen, balzamik sirke, kahvaltılık sos, pesto sos, söğüş",
           },
@@ -218,28 +313,48 @@ export const categories = [
           {
             category: "KRUVASAN",
             name: "mascarpone",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136303/lifano-bakery/kahvalt%C4%B1/mascarpone-min_xxffdo.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/mascarpone.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/mascarpone.webp",
+            },
             price: 88,
             desc: "muz, orman meyveleri, sürülebilir antep fıstığı, mascarpone kreması",
           },
           {
             category: "KRUVASAN",
             name: "lotus biscoff",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136293/lifano-bakery/kahvalt%C4%B1/lotus_biscoff-min_uhonbz.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/lotus-biscoff.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/lotus-biscoff.webp",
+            },
             price: 80,
             desc: "sürülebilir lotus kreması, krem diplomat, muz, çilek",
           },
           {
             category: "KRUVASAN",
             name: "en tatlımız",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136312/lifano-bakery/kahvalt%C4%B1/en_tatlimiz-min_zlxprg.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/en-tatlimiz.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/en-tatlimiz.webp",
+            },
             price: 78,
             desc: "kırmızı orman meyveleri, nutella, mascarpone kreması, çilek, pudra şekeri",
           },
           {
             category: "KRUVASAN",
             name: "kruvasan special",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669136290/lifano-bakery/kahvalt%C4%B1/kruvasan_special-min_rwf8bt.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/kruvasan-special.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/kruvasan-special.webp",
+            },
             price: 180,
             desc: "2 adet sade kruvasan, füme kaburga, mevsim meyveleri, peynir çeşitleri, söğüş tabağı, bal, kaymak, zeytin, sürülebilir peynir, kit-kat, mevsim reçeli, kahvaltılık sos, pesto sos, fındık ezmesi, 2 fincan çay",
           },
@@ -263,7 +378,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "kakaolu kül kurabiye",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296747/lifano-bakery/tereya%C4%9Fl%C4%B1lar/kakaolu-kul-kurabiye-min_kbhnae.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/kakaolu-kul-kurabiye.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/kakaolu-kul-kurabiye.webp",
+            },
             price: "",
           },
         ],
@@ -275,7 +395,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "starbucks",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296747/lifano-bakery/tereya%C4%9Fl%C4%B1lar/starbucks-min_oi69xi.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/starbucks.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/starbucks.webp",
+            },
             price: "",
           },
         ],
@@ -287,7 +412,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "cookie",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296746/lifano-bakery/tereya%C4%9Fl%C4%B1lar/cookie-min_gq1pil.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/cookie.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/cookie.webp",
+            },
             price: "",
           },
         ],
@@ -299,7 +429,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "baharatlı",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296743/lifano-bakery/tereya%C4%9Fl%C4%B1lar/baharatli-min_myl9hp.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/baharatli.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/baharatli.webp",
+            },
             price: "",
           },
         ],
@@ -311,7 +446,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "tatlı-tuzlu",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296742/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tatl%C4%B1-tuzlu-min_dkwbsv.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tatli-tuzlu.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tatli-tuzlu.webp",
+            },
             price: "",
           },
         ],
@@ -323,7 +463,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "tuzlu simit",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296740/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tuzlu-simit-min_yzenih.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tuzlu-simit.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tuzlu-simit.webp",
+            },
             price: "",
           },
         ],
@@ -335,7 +480,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "peynirli poğaça",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296737/lifano-bakery/tereya%C4%9Fl%C4%B1lar/peynirli-pogaca-min_jvropk.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/peynirli-pogaca.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/peynirli-pogaca.webp",
+            },
             price: "",
           },
         ],
@@ -347,7 +497,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "perişan kurabiye",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296737/lifano-bakery/tereya%C4%9Fl%C4%B1lar/perisan-kurabiye-min_wwjp5z.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/perisan-kurabiye.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/perisan-kurabiye.webp",
+            },
             price: "",
           },
         ],
@@ -359,7 +514,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296735/lifano-bakery/tereya%C4%9Fl%C4%B1lar/DSCF3433-min_wqbwxa.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/DSCF3433.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/DSCF3433.webp",
+            },
             price: "",
           },
         ],
@@ -371,7 +531,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "süper üçlü",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296731/lifano-bakery/tereya%C4%9Fl%C4%B1lar/super-uclu-min_pe3iqp.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/super-uclu.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/super-uclu.webp",
+            },
             price: "",
           },
         ],
@@ -383,7 +548,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296730/lifano-bakery/tereya%C4%9Fl%C4%B1lar/DSCF3223-min_oddbxg.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/DSCF3223.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/DSCF3223.webp",
+            },
             price: "",
           },
         ],
@@ -395,7 +565,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "izmir bomba",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296729/lifano-bakery/tereya%C4%9Fl%C4%B1lar/bomba-min_wp7uq9.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/izmir-bomba.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/izmir-bomba.webp",
+            },
             price: "",
           },
         ],
@@ -407,7 +582,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "tarçınlı kurabiye",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296728/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tarcinli-kurabiye-min_rpzbux.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tarcinli-kurabiye.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tarcinli-kurabiye.webp",
+            },
             price: "",
           },
         ],
@@ -419,7 +599,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "tahinli",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296728/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tahinli-min_qwpegm.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tahinli.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tahinli.webp",
+            },
             price: "",
           },
         ],
@@ -431,7 +616,12 @@ export const categories = [
           {
             category: "Tereyağlılar",
             name: "tahinli-2",
-            img: "https://res.cloudinary.com/dk2jge0mf/image/upload/v1669296725/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tahinli-2-min_uxvtej.webp",
+            img: {
+              small:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tahinli-2.webp",
+              normal:
+                "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/tereya%C4%9Fl%C4%B1lar/tahinli-2.webp",
+            },
             price: "",
           },
         ],
