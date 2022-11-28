@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="navbar w-full flex justify-center items-center rounded-md shadow-lg">
       <div className="navbar-container">
-        <ul className="flex  gap-1 sm:gap-2">
+        <ul className="flex gap-1 sm:gap-2">
           {menuList.map((category) => (
             <li key={category.id} className="rounded-md p-1">
               <Link
