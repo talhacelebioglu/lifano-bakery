@@ -6,10 +6,12 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div className="App container mx-auto px-5">
-        <Landing />
-        <Navbar />
-        <CategoryList />
+      <div className="App container mx-auto">
+        <div className="px-5">
+          <Landing />
+          <Navbar />
+          <CategoryList />
+        </div>
         <Footer />
       </div>
     </>

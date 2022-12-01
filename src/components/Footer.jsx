@@ -2,8 +2,10 @@ import React from "react";
 import * as AiICons from "react-icons/ai";
 
 const Footer = () => {
+  const thisYear = new Date().getFullYear();
+
   return (
-    <div className="footer py-20 flex flex-col items-center gap-2 text-lime-200">
+    <div className="footer mt-20 pt-14 flex flex-col items-center gap-2 text-lime-200">
       <p>~ Developed by Talha Çelebioğlu ~</p>
       <div className="my-social flex gap-2">
         <a
@@ -28,6 +30,9 @@ const Footer = () => {
           <AiICons.AiFillLinkedin />
         </a>
       </div>
+      <p className="copyright pt-10">
+        Lifano Bakery &copy; {thisYear} - Tüm hakları saklıdır.
+      </p>
     </div>
   );
 };
