@@ -43,6 +43,7 @@
 
 body {
   color: var(--white);
+  background: linear-gradient(to right, #bdc3c7, #2c3e50, #bdc3c7);
   font-family: "Raleway", sans-serif;
 }
 
@@ -67,7 +68,6 @@ img {
 .navbar {
   background-color: var(--wood);
   color: var(--white);
-  height: 50px;
   position: sticky;
   top: 0;
   z-index: 5;

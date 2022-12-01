@@ -6,13 +6,13 @@ const Navbar = () => {
   const { menuList } = useContext(MenuContext);
 
   return (
-    <div className="navbar w-full flex justify-center items-center rounded-md shadow-lg">
+    <div className="navbar h-16 sm:h-20 w-full flex justify-center items-center rounded-md shadow-lg">
       <div className="navbar-container">
         <ul className="flex gap-1 sm:gap-2">
           {menuList.map((category) => (
-            <li key={category.id} className="rounded-md p-1">
+            <li key={category.id}>
               <Link
-                className="text-base font-semibold cursor-pointer"
+                className="p-1 sm:p-2 text-base sm:text-xl font-semibold cursor-pointer"
                 activeClass="active"
                 to={`${category.name}`}
                 spy={true}

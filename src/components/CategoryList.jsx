@@ -10,10 +10,10 @@ const CategoryList = () => {
       {menuList.map((category) => (
         <div
           id={category.name}
-          className="category-container pt-12"
+          className="category-container pt-8 sm:pt-12"
           key={category.id}
         >
-          <div className="category-header text-center my-8">
+          <div className="category-header text-center my-12">
             <h2 className="font-semibold text-2xl sm:text-3xl uppercase">
               ~ {category.name} ~
             </h2>
