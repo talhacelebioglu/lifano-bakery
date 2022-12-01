@@ -1,4 +1,5 @@
 import CategoryList from "./components/CategoryList";
+import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
 
@@ -9,18 +10,7 @@ function App() {
         <Landing />
         <Navbar />
         <CategoryList />
-        <div className="p-5 text-center">
-          ~ Developed by
-          <a
-            href="http://www.instagram.com/talhacelebioglu/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-1 underline"
-          >
-            Talha Çelebioğlu
-          </a>
-          ~
-        </div>
+        <Footer />
       </div>
     </>
   );

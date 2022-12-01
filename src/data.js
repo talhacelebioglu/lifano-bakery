@@ -21,7 +21,7 @@ export const categories = [
           },
           {
             category: "FRANSIZ TOSTU",
-            name: "MOZZARELLA KASAP SUCUK",
+            name: "mozzarella kasap sucuk",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/mozzarella-kasapsucuk.webp",
@@ -33,7 +33,7 @@ export const categories = [
           },
           {
             category: "FRANSIZ TOSTU",
-            name: "MANTAR FÜME ET",
+            name: "mantar füme et",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/mantar-fume.webp",
@@ -45,7 +45,7 @@ export const categories = [
           },
           {
             category: "FRANSIZ TOSTU",
-            name: "YER FISTIĞI EZMESİ - BELÇİKA ÇİKOLATASI",
+            name: "yer fıstığı ezmesi - belçika çikolatası",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/yerfistigi-belcikacikolatasi.webp",
@@ -57,7 +57,7 @@ export const categories = [
           },
           {
             category: "FRANSIZ TOSTU",
-            name: "FRENCH BURGER",
+            name: "french burger",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/french-burger.webp",
@@ -75,7 +75,7 @@ export const categories = [
         items: [
           {
             category: "PANCAKE",
-            name: "PANCAKE füme",
+            name: "pancake füme",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/pancake-fume.webp",
@@ -87,7 +87,7 @@ export const categories = [
           },
           {
             category: "PANCAKE",
-            name: "PANCAKE meyveli",
+            name: "pancake meyveli",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/pancake-meyveli.webp",
@@ -99,7 +99,7 @@ export const categories = [
           },
           {
             category: "PANCAKE",
-            name: "PANCAKE special",
+            name: "pancake special",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/pancake-special.webp",
@@ -159,7 +159,7 @@ export const categories = [
         items: [
           {
             category: "GRANOLA BOWL",
-            name: "GRANOLA BOWL",
+            name: "granola bowl",
             img: "",
             price: 76,
             desc: "süzme yoğurt, süt, granola, orman meyveleri, mevsim yeşillikleri",
@@ -172,7 +172,7 @@ export const categories = [
         items: [
           {
             category: "CHEF'S SPECİAL",
-            name: "CHEF'S SPECİAL",
+            name: "chef's special",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/chef-special.webp",
@@ -190,7 +190,7 @@ export const categories = [
         items: [
           {
             category: "PROTEİNG",
-            name: "PROTEİNG",
+            name: "proteing",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/proteing.webp",
@@ -208,7 +208,7 @@ export const categories = [
         items: [
           {
             category: "KAHVALTI TABAĞI",
-            name: "KAHVALTI TABAĞI",
+            name: "kahvaltı tabağı",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/kahvalti-tabagi.webp",
@@ -226,7 +226,7 @@ export const categories = [
         items: [
           {
             category: "BONJOUR",
-            name: "BONJOUR",
+            name: "bonjour",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/bonjour.webp",
@@ -244,7 +244,7 @@ export const categories = [
         items: [
           {
             category: "TAVA KAHVALTI",
-            name: "TAVA KAHVALTI",
+            name: "tava kahvaltı",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/tava-kahvalti.webp",
@@ -274,7 +274,7 @@ export const categories = [
           },
           {
             category: "KRUVASAN",
-            name: "istiridye mantarı",
+            name: "İstiridye mantarı",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/kahvalt%C4%B1/istiridye-mantari.webp",
@@ -282,7 +282,7 @@ export const categories = [
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/istiridye-mantari.webp",
             },
             price: 90,
-            desc: "istiridye mantarı, scrambledeggs, füme antrikot, lutenitse, sürülebilir peynir",
+            desc: "İstiridye mantarı, scrambledeggs, füme antrikot, lutenitse, sürülebilir peynir",
           },
           {
             category: "KRUVASAN",
@@ -509,11 +509,11 @@ export const categories = [
       },
       {
         id: 3.09,
-        name: "",
+        name: "mısır gevreği ve çikolatalı kurabiye",
         items: [
           {
             category: "Tereyağlılar",
-            name: "",
+            name: "mısır gevreği ve çikolatalı kurabiye",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/DSCF3433.webp",
@@ -526,11 +526,11 @@ export const categories = [
       },
       {
         id: 3.1,
-        name: "süper üçlü",
+        name: "zeytin peynir ve cevizli tereyağlı poğaça",
         items: [
           {
             category: "Tereyağlılar",
-            name: "süper üçlü",
+            name: "zeytin peynir ve cevizli tereyağlı poğaça",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/super-uclu.webp",
@@ -543,11 +543,11 @@ export const categories = [
       },
       {
         id: 3.11,
-        name: "",
+        name: "çörek otlu",
         items: [
           {
             category: "Tereyağlılar",
-            name: "",
+            name: "çörek otlu",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/DSCF3223.webp",
@@ -560,11 +560,11 @@ export const categories = [
       },
       {
         id: 3.12,
-        name: "izmir bomba",
+        name: "İzmir bomba",
         items: [
           {
             category: "Tereyağlılar",
-            name: "izmir bomba",
+            name: "İzmir bomba",
             img: {
               small:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669293733/lifano-bakery/tereya%C4%9Fl%C4%B1lar/izmir-bomba.webp",
@@ -631,6 +631,358 @@ export const categories = [
   {
     id: 4,
     name: "İçecekler",
-    sub_category: [],
+    sub_category: [
+      {
+        id: 4.01,
+        name: "kahveler",
+        items: [
+          {
+            category: "kahveler",
+            name: "espresso",
+            price: 24,
+          },
+          {
+            category: "kahveler",
+            name: "double espresso",
+            price: 27,
+          },
+          {
+            category: "kahveler",
+            name: "flat white",
+            price: 32,
+          },
+          {
+            category: "kahveler",
+            name: "macchiato",
+            price: 28,
+          },
+          {
+            category: "kahveler",
+            name: "latte macchiato",
+            price: 37,
+          },
+          {
+            category: "kahveler",
+            name: "latte",
+            price: 35,
+          },
+          {
+            category: "kahveler",
+            name: "americano",
+            price: 30,
+          },
+          {
+            category: "kahveler",
+            name: "cappuccino",
+            price: 35,
+          },
+          {
+            category: "kahveler",
+            name: "mocha",
+            price: 39,
+          },
+          {
+            category: "kahveler",
+            name: "cubano coffee",
+            price: 32,
+          },
+          {
+            category: "kahveler",
+            name: "filtre kahve",
+            price: 30,
+          },
+          {
+            category: "kahveler",
+            name: "türk kahvesi",
+            price: 25,
+          },
+          {
+            category: "kahveler",
+            name: "granül kahve",
+            price: 28,
+          },
+          {
+            category: "kahveler",
+            name: "sade granül kahve",
+            price: 28,
+          },
+          {
+            category: "kahveler",
+            name: "sütlü granül kahve",
+            price: 32,
+          },
+          {
+            category: "kahveler",
+            name: "aroma",
+            price: 10,
+          },
+        ],
+      },
+      {
+        id: 4.02,
+        name: "soğuk kahveler",
+        items: [
+          {
+            category: "soğuk kahveler",
+            name: "ice latte",
+            price: 35,
+          },
+          {
+            category: "soğuk kahveler",
+            name: "ice americano",
+            price: 30,
+          },
+          {
+            category: "soğuk kahveler",
+            name: "ice cappuccino",
+            price: 35,
+          },
+          {
+            category: "soğuk kahveler",
+            name: "ice mocha",
+            price: 39,
+          },
+          {
+            category: "soğuk kahveler",
+            name: "cold brew",
+            price: 44,
+          },
+          {
+            category: "soğuk kahveler",
+            name: "ice caramel macchiato",
+            price: 45,
+          },
+          {
+            category: "soğuk kahveler",
+            name: "dalgona kahve",
+            price: 35,
+          },
+          {
+            category: "soğuk kahveler",
+            name: "frambuazlı dalgona",
+            price: 38,
+          },
+        ],
+      },
+      {
+        id: 4.03,
+        name: "sıcak içecekler",
+        items: [
+          {
+            category: "sıcak içecekler",
+            name: "sıcak çikolata",
+            price: 35,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "sahlep",
+            price: 35,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "çay",
+            price: 10,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "fincan çay",
+            price: 17,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "ıhlamur",
+            price: 32,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "yeşil çay",
+            price: 32,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "ada çayı",
+            price: 32,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "papatya",
+            price: 32,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "kış çayı",
+            price: 32,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "böğürtlen",
+            price: 32,
+          },
+          {
+            category: "sıcak içecekler",
+            name: "nane limon",
+            price: 32,
+          },
+        ],
+      },
+      {
+        id: 4.04,
+        name: "mocktailler",
+        items: [
+          {
+            category: "mocktailler",
+            name: "strawberry hibiscus",
+            price: 40,
+          },
+          {
+            category: "mocktailler",
+            name: "blackberry hibiscus",
+            price: 40,
+          },
+          {
+            category: "mocktailler",
+            name: "coollime",
+            price: 40,
+          },
+          {
+            category: "mocktailler",
+            name: "mojito",
+            price: 44,
+          },
+          {
+            category: "mocktailler",
+            name: "atom",
+            price: 40,
+          },
+          {
+            category: "mocktailler",
+            name: "summerr cup",
+            price: 44,
+          },
+          {
+            category: "mocktailler",
+            name: "coco star",
+            price: 44,
+          },
+        ],
+      },
+      {
+        id: 4.05,
+        name: "taze ürünler",
+        items: [
+          {
+            category: "taze ürünler",
+            name: "limonata",
+            price: 35,
+          },
+          {
+            category: "taze ürünler",
+            name: "limonata çilekli",
+            price: 37,
+          },
+          {
+            category: "taze ürünler",
+            name: "churchill",
+            price: 28,
+          },
+          {
+            category: "taze ürünler",
+            name: "portakal suyu",
+            price: 30,
+          },
+        ],
+      },
+      {
+        id: 4.06,
+        name: "meşrubatlar",
+        items: [
+          {
+            category: "meşrubatlar",
+            name: "zafer gazoz",
+            price: 8,
+          },
+          {
+            category: "meşrubatlar",
+            name: "zafer gazoz mandalina",
+            price: 8,
+          },
+          {
+            category: "meşrubatlar",
+            name: "fuse tea teneke çeşitleri",
+            price: 15,
+          },
+          {
+            category: "meşrubatlar",
+            name: "cappy pulpy",
+            price: 15,
+          },
+          {
+            category: "meşrubatlar",
+            name: "cappy teneke çeşitleri",
+            price: 15,
+          },
+          {
+            category: "meşrubatlar",
+            name: "dimes kutu çeşitleri",
+            price: 8,
+          },
+          {
+            category: "meşrubatlar",
+            name: "capri sun çeşitleri",
+            price: 7.5,
+          },
+          {
+            category: "meşrubatlar",
+            name: "cola",
+            price: 15,
+          },
+          {
+            category: "meşrubatlar",
+            name: "cola zero",
+            price: 15,
+          },
+          {
+            category: "meşrubatlar",
+            name: "fanta",
+            price: 15,
+          },
+          {
+            category: "meşrubatlar",
+            name: "meyveli soda",
+            price: 10,
+          },
+          {
+            category: "meşrubatlar",
+            name: "sade soda",
+            price: 8,
+          },
+          {
+            category: "meşrubatlar",
+            name: "pet su",
+            price: 5,
+          },
+          {
+            category: "meşrubatlar",
+            name: "cam su",
+            price: 10,
+          },
+          {
+            category: "meşrubatlar",
+            name: "ayran",
+            price: 7,
+          },
+          {
+            category: "meşrubatlar",
+            name: "süt",
+            price: 10,
+          },
+          {
+            category: "meşrubatlar",
+            name: "çikolatalı süt",
+            price: 10,
+          },
+        ],
+      },
+    ],
   },
 ];
