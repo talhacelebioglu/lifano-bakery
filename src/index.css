@@ -106,8 +106,8 @@ img {
 }
 
 .landing-title svg {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
 
 /* category */
@@ -129,12 +129,13 @@ img {
 
 /* footer */
 .my-social svg {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 
 .footer {
   background-color: var(--bg-footer);
+  font-size: 1.1rem;
 }
 
 .copyright {

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer mt-20 pt-14 flex flex-col items-center gap-2 text-lime-200">
       <p>~ Developed by Talha Çelebioğlu ~</p>
-      <div className="my-social flex gap-2">
+      <div className="my-social flex gap-3">
         <a
           href="http://www.instagram.com/talhacelebioglu/"
           target="_blank"

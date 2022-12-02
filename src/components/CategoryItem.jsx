@@ -8,7 +8,23 @@ const CategoryItem = ({ category }) => {
       <div className="category-detail">
         {category.sub_category &&
           category.sub_category.map((item) => (
-            <div key={item.id} className="mb-8">
+            <div key={item.id} className="mb-16">
+              {item.img && (
+                <picture>
+                  <source
+                    type="image/webp"
+                    media="(max-width: 768px)"
+                    srcSet={`${item.img.small} 768w`}
+                    sizes="768px"
+                  />
+                  <source type="image/webp" srcSet={`${item.img.normal}`} />
+                  <img
+                    className="rounded-xl shadow-md shadow-amber-500"
+                    src={item.img.small}
+                    alt={item.name}
+                  />
+                </picture>
+              )}
               {item.items.length > 1 ? (
                 <h3
                   className={

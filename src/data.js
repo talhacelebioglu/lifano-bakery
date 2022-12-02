@@ -635,6 +635,12 @@ export const categories = [
       {
         id: 4.01,
         name: "kahveler",
+        img: {
+          small:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669994222/lifano-bakery/icecekler/espresso.webp",
+          normal:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669994222/lifano-bakery/icecekler/espresso.webp",
+        },
         items: [
           {
             category: "kahveler",
@@ -721,6 +727,12 @@ export const categories = [
       {
         id: 4.02,
         name: "soğuk kahveler",
+        img: {
+          small:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669994222/lifano-bakery/icecekler/cold-brew.webp",
+          normal:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669994222/lifano-bakery/icecekler/cold-brew.webp",
+        },
         items: [
           {
             category: "soğuk kahveler",
@@ -767,6 +779,12 @@ export const categories = [
       {
         id: 4.03,
         name: "sıcak içecekler",
+        img: {
+          small:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669994222/lifano-bakery/icecekler/sicak-cikolata.webp",
+          normal:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669994222/lifano-bakery/icecekler/sicak-cikolata.webp",
+        },
         items: [
           {
             category: "sıcak içecekler",
@@ -828,6 +846,12 @@ export const categories = [
       {
         id: 4.04,
         name: "mocktailler",
+        img: {
+          small:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669994222/lifano-bakery/icecekler/mojito.webp",
+          normal:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669994222/lifano-bakery/icecekler/mojito.webp",
+        },
         items: [
           {
             category: "mocktailler",
@@ -869,6 +893,12 @@ export const categories = [
       {
         id: 4.05,
         name: "taze ürünler",
+        img: {
+          small:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_720,w_1280/v1669994222/lifano-bakery/icecekler/limonata.webp",
+          normal:
+            "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669994222/lifano-bakery/icecekler/limonata.webp",
+        },
         items: [
           {
             category: "taze ürünler",
