@@ -2,6 +2,7 @@ import CategoryList from "./components/CategoryList";
 import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <CategoryList />
         </div>
         <Footer />
+        <ScrollTop />
       </div>
     </>
   );

@@ -95,6 +95,11 @@ const CategoryItem = ({ category }) => {
                 ))}
             </div>
           ))}
+        {category.sub_category.length === 0 && (
+          <h3 className="text-lg sm:text-xl font-semibold">
+            Çok Yakında Eklenecektir...
+          </h3>
+        )}
       </div>
     </div>
   );
