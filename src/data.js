@@ -895,7 +895,7 @@ export const categories = [
           },
           {
             category: "mocktailler",
-            name: "summerr cup",
+            name: "summer cup",
             price: 44,
           },
           {
