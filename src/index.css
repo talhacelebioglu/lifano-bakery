@@ -60,22 +60,6 @@ img {
   min-height: 100vh;
 }
 
-.active {
-  color: var(--grey);
-  /* position: relative; */
-}
-
-/* .active::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: -16px;
-  left: 0px;
-  background: var(--grey);
-  border-radius: 10px;
-} */
-
 /* navbar */
 .navbar {
   background-color: var(--wood);
@@ -85,8 +69,29 @@ img {
   z-index: 5;
 }
 
-.navbar a {
-  transition: all 0.5s ease-out;
+ul a {
+  position: relative;
+  transition: all 0.35s ease-out;
+}
+
+ul a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 50%;
+  background: var(--grey);
+  transition: all 0.35s ease-out;
+}
+
+.active {
+  color: var(--grey);
+}
+
+.active::before {
+  width: calc(100% - 13px);
+  left: 7px;
 }
 
 /* landing */
@@ -171,8 +176,8 @@ img {
 }
 
 .scroll-top button svg {
-  width: 25px;
-  height: 25px;
+  width: 27px;
+  height: 27px;
   animation: upicon 3s ease-in-out infinite;
 }
 
