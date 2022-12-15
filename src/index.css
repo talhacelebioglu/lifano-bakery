@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.cdnfonts.com/css/century-gothic");
+@import url("https://fonts.cdnfonts.com/css/century-gothic?styles=24895,24896");
 @import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Raleway:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Questrial&family=Urbanist&display=swap");
 
 @layer base {
   h1 {
@@ -106,7 +107,7 @@ ul a::before {
 }
 
 .landing-page h1 {
-  font-family: "Century Gothic", sans-serif;
+  font-family: "Century Gothic", "Urbanist", "Mulish", "Questrial", sans-serif;
 }
 
 .landing-page h3 {
