@@ -17,6 +17,11 @@ const CategoryList = () => {
             <h2 className="font-semibold text-2xl sm:text-3xl uppercase">
               ~ {category.name} ~
             </h2>
+            {category.name === "Kahvaltı" && (
+              <h4 className="text-base sm:text-lg pt-3">
+                - Kahvaltı servisimiz 8.30 - 15.30 arasındadır -
+              </h4>
+            )}
           </div>
           <CategoryItem category={category} />
         </div>
