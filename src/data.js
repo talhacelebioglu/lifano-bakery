@@ -16,7 +16,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/avokado-tost.webp",
             },
-            price: 86,
+            price: 90,
             desc: "Ekşi Maya Ekmek, Roka, Maydonoz, Erken Hasat Soğuk Sıkım Zeytin Yağı, Orman Meyveleri, Tire Çamur Peyniri",
           },
           {
@@ -28,7 +28,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/mozzarella-kasapsucuk.webp",
             },
-            price: 95,
+            price: 105,
             desc: "Ekşi Maya Ekmek, Kasap Sucuk, Roka, Confit Domates, Mozzarella Sos",
           },
           {
@@ -40,7 +40,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/mantar-fume.webp",
             },
-            price: 86,
+            price: 90,
             desc: "Ekşi Maya Ekmek, Mantar, Ispanak, Göz Yumurta, Gravyer Peynir Rendesi, Sürülebilir Peynir, Taze Kekik",
           },
           {
@@ -52,7 +52,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/yerfistigi-belcikacikolatasi.webp",
             },
-            price: 85,
+            price: 92,
             desc: "Ekşi Maya Ekmek, Roka, Maydonoz, Erken Hasat Soğuk Sıkım Zeytin Yağı, Orman Meyveleri, Tire Çamur Peyniri",
           },
           {
@@ -64,7 +64,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/french-burger.webp",
             },
-            price: 86,
+            price: 90,
             desc: "Ekşi Maya Ekmek, füme antrikot, chedar peyniri, acı sos, turşu, mevsim reçeli",
           },
         ],
@@ -82,7 +82,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/pancake-fume.webp",
             },
-            price: 87,
+            price: 95,
             desc: "2 adet pancake, 2 adet göz yumurta, füme et, mantar, confit domates, kızarmış peynir",
           },
           {
@@ -94,7 +94,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/pancake-meyveli.webp",
             },
-            price: 88,
+            price: 90,
             desc: "4 adet pancake, bal şurubu, krema, mevsim meyveleri",
           },
           {
@@ -106,7 +106,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/pancake-special.webp",
             },
-            price: 180,
+            price: 210,
             desc: "8 adet pancake, füme, kaburga, mevsim meyveleri, peynir çeşitleri, söğüş tabağı, bal, kaymak, zeytin, sürülebilir peynir, kit-kat, mevsim reçeli, kahvaltılık sos, avokado sos, 2 fincan çay",
           },
         ],
@@ -124,7 +124,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/withmeat.webp",
             },
-            price: 89,
+            price: 93,
             desc: "ekşi maya ekmek, mihaliç peyniri, kavurma, roka, scrambledeggs, acılı ev salça, kekik, mevsim yeşillikleri, sürülebilir peynir, lütenitsa",
           },
           {
@@ -136,7 +136,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/lifano-envai.webp",
             },
-            price: 95,
+            price: 100,
             desc: "ekşi maya ekmek, kars gravyeri, kasap sucuk, poşe yumurta, mevsim yeşillikleri, hollandez sos",
           },
           {
@@ -148,7 +148,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/grand-egg.webp",
             },
-            price: 105,
+            price: 130,
             desc: "ekşi maya ekmek, füme somon, avokado, roka, poşe yumurta, hollandez sos, yeşillik",
           },
         ],
@@ -166,7 +166,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/granola-bowl.webp",
             },
-            price: 86,
+            price: 90,
             desc: "süzme yoğurt, süt, granola, orman meyveleri, mevsim yeşillikleri",
           },
         ],
@@ -184,7 +184,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/chef-special.webp",
             },
-            price: 195,
+            price: 225,
             desc: "peynir çeşitleri, tereyağı, tire çamur peyniri, söğüş, zeytin (siyah-yeşil), göz yumurta, (x2) dana bacon, füme et, petek bal, kaymak, mevsim reçeli, fındık ezmesi, avokado sos, 2 fincan çay",
           },
         ],
@@ -202,7 +202,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/proteing.webp",
             },
-            price: 96,
+            price: 115,
             desc: "gurme sosis, dana bacon, göz yumurta, sote mantar, kuru fasulye, ekşi maya ekmek, confit domates",
           },
         ],
@@ -220,7 +220,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/kahvalti-tabagi.webp",
             },
-            price: 90,
+            price: 100,
             desc: "scrambledeggs, zeytinyağlı humuz, söğüş, zeytin, tire çamur peyniri, sucuk, kızartılmış peynir, petek bal, kaymak, tahin, gevrek simit",
           },
         ],
@@ -238,7 +238,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/bonjour.webp",
             },
-            price: 96,
+            price: 118,
             desc: "ekşi maya ekmek, avokado, füme et, 2 adet göz yumurta, fındık ezmesi, kars gravyeri, ezine peyniri, tire çamur peyniri, zeytin, kahvaltılık sos, pesto sos, avokado sos",
           },
         ],
@@ -256,7 +256,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/tava-kahvalti.webp",
             },
-            price: 98,
+            price: 120,
             desc: "gurme sosis, mantar, scrambledeggs, kızarmış peynir, patates kızartması, confit domates, kahvaltılık sos, pesto sos, avokado sos",
           },
         ],
@@ -274,7 +274,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/kolbasa.webp",
             },
-            price: 91,
+            price: 105,
             desc: "gurme sosis, scrambledeggs, taze kekik, çörek otu, hardal, barbekü sos",
           },
           {
@@ -286,7 +286,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/istiridye-mantari.webp",
             },
-            price: 96,
+            price: 118,
             desc: "İstiridye mantarı, scrambledeggs, füme antrikot, lutenitse, sürülebilir peynir",
           },
           {
@@ -298,7 +298,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/fior-di-latte.webp",
             },
-            price: 90,
+            price: 96,
             desc: "mozzarella peyniri, kuru domates, fesleğen, balzamik sirke, kahvaltılık sos, pesto sos, söğüş",
           },
           {
@@ -310,7 +310,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/bufalo.webp",
             },
-            price: 96,
+            price: 118,
             desc: "dana bacon, scrambledeggs, avokado, rude gravyer, çörek otu, kahvaltılık sos, pesto sos, sürülebilir peynir, söğüş",
           },
           {
@@ -322,7 +322,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/deniz-feneri.webp",
             },
-            price: 105,
+            price: 130,
             desc: "füme somon, avokado, roka, poşe yumurta, mevsim yeşillikleri",
           },
           {
@@ -334,7 +334,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/mascarpone.webp",
             },
-            price: 93,
+            price: 115,
             desc: "muz, orman meyveleri, sürülebilir antep fıstığı, mascarpone kreması",
           },
           {
@@ -346,7 +346,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/lotus-biscoff.webp",
             },
-            price: 90,
+            price: 108,
             desc: "sürülebilir lotus kreması, krem diplomat, muz, çilek",
           },
           {
@@ -358,7 +358,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/en-tatlimiz.webp",
             },
-            price: 88,
+            price: 98,
             desc: "kırmızı orman meyveleri, nutella, mascarpone kreması, çilek, pudra şekeri",
           },
           {
@@ -370,7 +370,7 @@ export const categories = [
               normal:
                 "https://res.cloudinary.com/dk2jge0mf/image/upload/c_fit,h_1080,w_1920/v1669136335/lifano-bakery/kahvalt%C4%B1/kruvasan-special.webp",
             },
-            price: 180,
+            price: 210,
             desc: "2 adet sade kruvasan, füme kaburga, mevsim meyveleri, peynir çeşitleri, söğüş tabağı, bal, kaymak, zeytin, sürülebilir peynir, kit-kat, mevsim reçeli, kahvaltılık sos, pesto sos, fındık ezmesi, 2 fincan çay",
           },
         ],
