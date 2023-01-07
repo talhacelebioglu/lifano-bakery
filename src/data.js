@@ -814,7 +814,7 @@ export const categories = [
           {
             category: "sıcak içecekler",
             name: "çay",
-            price: 10,
+            price: 13,
           },
           {
             category: "sıcak içecekler",
@@ -954,7 +954,7 @@ export const categories = [
           {
             category: "meşrubatlar",
             name: "fuse tea teneke çeşitleri",
-            price: 15,
+            price: 18,
           },
           {
             category: "meşrubatlar",
@@ -964,7 +964,7 @@ export const categories = [
           {
             category: "meşrubatlar",
             name: "cappy teneke çeşitleri",
-            price: 15,
+            price: 18,
           },
           {
             category: "meşrubatlar",
@@ -979,17 +979,17 @@ export const categories = [
           {
             category: "meşrubatlar",
             name: "cola",
-            price: 15,
+            price: 20,
           },
           {
             category: "meşrubatlar",
             name: "cola zero",
-            price: 15,
+            price: 20,
           },
           {
             category: "meşrubatlar",
             name: "fanta",
-            price: 15,
+            price: 20,
           },
           {
             category: "meşrubatlar",
@@ -1009,7 +1009,7 @@ export const categories = [
           {
             category: "meşrubatlar",
             name: "cam su",
-            price: 10,
+            price: 13,
           },
           {
             category: "meşrubatlar",
