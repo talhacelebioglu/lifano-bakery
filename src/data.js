@@ -819,7 +819,7 @@ export const categories = [
           {
             category: "sıcak içecekler",
             name: "fincan çay",
-            price: 17,
+            price: 20,
           },
           {
             category: "sıcak içecekler",
